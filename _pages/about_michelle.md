@@ -1,0 +1,3 @@
+I am currently pursuing a Ph.D. at the University of Nottingham(UNNC). I hold a Bachelor’s degree in Computer Engineering with distinction from the University of Alberta(UAlberta), Canada, and a Master’s degree in Computer Engineering from the National University of Singapore(NUS). Prior to my doctoral studies, I spent two years at Bosch GmbH as a System Engineer, where I specialized in Advanced Driver Assistance Systems (ADAS), particularly in the domain of automated parking.
+
+My current research interests lie in sensor technologies, AI4Health, AI4Science, and intelligent wellbeing systems.
