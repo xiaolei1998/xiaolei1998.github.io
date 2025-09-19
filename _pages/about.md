@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Ph.D studengt in Computer Science from the University of Nottingham
+subtitle: Ph.D student in Computer Science from the University of Nottingham
 profile:
   align: right
   image: prof_pic.jpg
