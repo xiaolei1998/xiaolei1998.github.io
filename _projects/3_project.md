@@ -5,6 +5,7 @@ description:
 img: assets/img/bca/bca.png
 importance: 3
 category: work
+description: Your identity information can be inferred from other biosignals.
 ---
 
 
