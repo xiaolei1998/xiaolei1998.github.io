@@ -418,9 +418,9 @@ ninja.data = [{
           description: "what? you mean FPGA can run another standalone soft core?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-bio-signal-authentication-algorithm",
+          title: 'Bio-signal Authentication Algorithm',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
