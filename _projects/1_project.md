@@ -1,17 +1,21 @@
 ---
 layout: page
-title: Meta Office
-description: with background image
+title: Virtual-Physical Interactive Workspace
+description:  intelligent office scene prototype
 img: assets/img/metaOffice/arm.png
 importance: 1
-category: work
-related_publications: true
+category: project
+related_publications: false
 ---
 
 Based on the concept of metaverse, the prototype design of the intelligent office scene is carried out. The system integrates the multi-sensor data collected in real time and projects it into the virtual 3D world. The prototype realizes the interaction between the real user and the virtual world through the IMU sensor and realizes the projection of the real scene to the virtual space scene through the CV module.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Simulating Interaction Between Real and Virtual Environments:**
+Real-time mapping of users’ arm movements and desktop objects into a virtual desktop environment built in Unity 3D.
 
+**Hardware and Algorithm Integration:**
+Using an Arduino MEGA development board, combined with IMU inertial sensors and camera modules, to capture arm movements and perceive the surrounding environment.
+Deploying a CNN-based object recognition module to accurately identify desktop items and synchronize them with the virtual environment.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,4 +36,9 @@ To give your project a background in the portfolio page, just add the img tag to
 
 Above figure shows the data processing pipeline for the system. Virutal environment is moduled by Unity 3D.
 
+**System Architecture and Data Communication:**
+Multi-threaded task management and design implemented in C, Python, and C# to ensure real-time data processing.
+TCP and serial communication structures are established to guarantee stable transmission of sensor data.
 
+
+Exploring the potential of mixed reality interactions for enhanced productivity.
