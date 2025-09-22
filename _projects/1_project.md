@@ -4,8 +4,8 @@ title: Virtual-Physical Interactive Workspace
 description:  intelligent office scene prototype
 img: assets/img/metaOffice/arm.png
 importance: 1
-category: project
-related_publications: false
+category: work
+giscus_comments: true
 ---
 
 Based on the concept of metaverse, the prototype design of the intelligent office scene is carried out. The system integrates the multi-sensor data collected in real time and projects it into the virtual 3D world. The prototype realizes the interaction between the real user and the virtual world through the IMU sensor and realizes the projection of the real scene to the virtual space scene through the CV module.
