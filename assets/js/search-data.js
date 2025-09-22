@@ -420,7 +420,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-bio-signal-authentication-algorithm",
           title: 'Bio-signal Authentication Algorithm',
-          description: "",
+          description: "Your identity information can be inferred from other biosignals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
