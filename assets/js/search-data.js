@@ -408,14 +408,14 @@ ninja.data = [{
             },},{id: "news-my-github-io-web-is-online",
           title: 'My github.io web is online! 😆',
           description: "",
-          section: "News",},{id: "projects-meta-office",
-          title: 'Meta Office',
-          description: "with background image",
+          section: "News",},{id: "projects-virtual-physical-interactive-workspace",
+          title: 'Virtual-Physical Interactive Workspace',
+          description: "intelligent office scene prototype",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-run-risc-v-core-on-fpga-evalutation-board",
+          title: 'Run RISC-V core on FPGA evalutation board',
+          description: "what? you mean FPGA can run another standalone soft core?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
