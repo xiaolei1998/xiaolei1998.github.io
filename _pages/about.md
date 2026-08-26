@@ -1,15 +1,8 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: Ph.D student in Computer Science from the University of Nottingham
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>University of Nottingham, UNNC, 199 Taikang East Road</p>
-    <p>Ningbo, 315104</p>
+subtitle: Ph.D. student in Computer Science at the University of Nottingham Ningbo China
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,9 +17,11 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am currently pursuing a Ph.D. at the University of Nottingham(UNNC). I hold a Bachelor’s degree in Computer Engineering with distinction from the University of Alberta(UAlberta), Canada, and a Master’s degree in Computer Engineering from the National University of Singapore(NUS). Prior to my doctoral studies, I spent two years at Bosch GmbH as a System Engineer, where I specialized in Advanced Driver Assistance Systems (ADAS), particularly in the domain of automated parking.
+I am currently pursuing a Ph.D. at the University of Nottingham Ningbo China (UNNC). I hold a Bachelor’s degree in Computer Engineering with distinction from the University of Alberta, Canada, and a Master’s degree in Computer Engineering from the National University of Singapore. Before my doctoral studies, I worked for two years at Bosch GmbH as a System Engineer, specialising in Advanced Driver Assistance Systems (ADAS) and automated parking.
 
-My current research interests lie in sensor technologies, AI4Health, AI4Science, and intelligent wellbeing systems.
+## Research focus
+
+My research explores sensor technologies, AI4Health, AI4Science, and intelligent wellbeing systems. I am particularly interested in building useful, reliable sensing systems that can move from the laboratory into everyday care.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
