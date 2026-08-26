@@ -3,18 +3,32 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
+  },{id: "nav-portfolio",
+          title: "Portfolio",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -22,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "nav-michelle-xiaolei-zhang",
           title: "Michelle(Xiaolei) ZHANG",
@@ -45,7 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-03-26-plotly/";
+            window.location.href = "/blog/2026/2025-03-26-plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -408,6 +415,9 @@ ninja.data = [{
             },},{id: "news-my-github-io-web-is-online",
           title: 'My github.io web is online! 😆',
           description: "",
+          section: "News",},{id: "news-our-paper-mmbedrehab-two-branch-mmwave-sensing-with-sparse-point-clouds-and-dense-body-context-maps-for-in-bed-rehabilitation-has-been-accepted-to-ubicomp-companion-26-to-be-held-october-11-15-2026-in-shanghai-china",
+          title: 'Our paper, “mmBedRehab: Two-Branch mmWave Sensing with Sparse Point Clouds and Dense Body-Context...',
+          description: "",
           section: "News",},{id: "projects-virtual-physical-interactive-workspace",
           title: 'Virtual-Physical Interactive Workspace',
           description: "intelligent office scene prototype",
@@ -423,30 +433,4 @@ ninja.data = [{
           description: "Your identity information can be inferred from other biosignals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+            },},];
